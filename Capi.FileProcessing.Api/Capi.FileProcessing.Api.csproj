@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Barko.OpenIdConnect" Version="1.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capi.FileFrocessing.Application\Capi.FileProcessing.Application.csproj" />
+    <ProjectReference Include="..\Capi.FileProcessing.Infrastructure\Capi.FileProcessing.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
